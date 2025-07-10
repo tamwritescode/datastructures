@@ -56,10 +56,10 @@ if __name__ == "__main__":
     print(f"Total installments: {len(schedule)}")
 
     # adding installments, 4 months
-    schedule.append(PaymentInstallment(datetime.date(2025, 8, 1), 250.00))
     schedule.append(PaymentInstallment(datetime.date(2025, 9, 1), 250.00))
     schedule.append(PaymentInstallment(datetime.date(2025, 10, 1), 250.00))
     schedule.append(PaymentInstallment(datetime.date(2025, 11, 1), 250.00))
+    schedule.append(PaymentInstallment(datetime.date(2025, 12, 1), 250.00))
     print("\nSchedule after initial setup (4 installments):", schedule)
     print(f"Total installments: {len(schedule)}")
 
